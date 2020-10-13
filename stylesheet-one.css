@@ -1,0 +1,65 @@
+body{
+    background-image: url("pictures/tesla_800px.jpg");
+   /* background-position: center;
+    background-attachment: fixed;*/
+}
+
+
+@media (min-width: 468px) {
+    .container-1{
+        display: flex;
+    }
+
+    .container-2{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.container-3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.container-1 div, .container-2 div, .container-3 div{
+border: 1px #ccc solid;
+    padding: 10px;
+}
+
+.box-1{
+    flex: 2;
+
+}
+.box-2{
+    flex: 1;
+
+}
+
+.box-3{
+    flex: 1;
+}
+
+.container-2-box{
+    flex-basis: 27%;
+}
+
+.container-3-box{
+    flex-basis: 12%;
+
+}
+
+H1 {
+    font-size: 500%;
+    text-align: center;
+    color: white;
+}
+
+@media only screen and (max-width: 800px) {
+    background-image:  url(pictures/tesla_800px.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
