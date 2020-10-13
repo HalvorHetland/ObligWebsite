@@ -6,7 +6,10 @@ H1 {
 }
 
 picture2 {
-    align-content: center;
+    display: block;
+    margin-left: 360px;
+    margin-right: auto;
+    width: 100%;
 }
 
 body{
