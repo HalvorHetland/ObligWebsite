@@ -1,5 +1,5 @@
 body{
-    background-image: url("pictures/tesla_800px.jpg");
+    background-image: url("pictures/Armbånd.png");
    /* background-position: center;
     background-attachment: fixed;*/
 }
@@ -57,9 +57,13 @@ H1 {
 }
 
 @media only screen and (max-width: 800px) {
-    background-image:  url(pictures/tesla_800px.jpg);
-    background-repeat: repeat;
+    background-image:  url(pictures/Armbånd.png);
+    /*background-repeat: repeat;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: fixed;*/
 
+}
+
+picture2 {
+    align-content: center;
 }
